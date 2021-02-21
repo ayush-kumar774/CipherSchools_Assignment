@@ -89,8 +89,12 @@ int32_t main()
         root->left = new TreeNode(5);
         root->right = new TreeNode(20);
         inOrderTraversal(root);
+        cout << endl ;
         preOrderTraversal(root);
+        cout << endl ;
         postOrderTraversal(root);
+        cout << endl ;
         levelOrderTraversal(root);
+        cout << endl ;
         return 0;
 }
